@@ -126,3 +126,7 @@ brain = stc.plot(
     smoothing_steps=5,  # Smooth the data for better visualization
     transparent=False,  # Make the surface fully opaque
 )
+
+# %%
+# Save the brain plot as a JPEG file
+brain.save_image("leadfield_distribution.jpg")
